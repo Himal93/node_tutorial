@@ -3,7 +3,7 @@ const router = express.Router();
 const Person = require('./../models/Person');
 
 // POST route to add a person
-router.post('/', async(req,res)=>{
+router.post('/signup', async(req,res)=>{
     try{
         const data = req.body  //assuming request body conatins person data
 
